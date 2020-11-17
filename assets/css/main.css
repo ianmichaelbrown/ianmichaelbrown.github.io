@@ -1820,7 +1820,7 @@ input, select, textarea {
 /* Blurb */
 
 	.blurb h2 {
-		font-size: 0.8em;
+		font-size: 1em;
 		margin: 0 0 1.5em 0;
 	}
 
@@ -1829,7 +1829,7 @@ input, select, textarea {
 	}
 
 	.blurb p {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 /* Box */
@@ -2557,7 +2557,7 @@ input, select, textarea {
 	}
 
 		ul.posts li {
-			border-top: dotted 1px rgb(18, 14, 231);
+			border-top: dotted 1px rgb(160, 160, 160, 0.3);
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 		}
@@ -2765,7 +2765,7 @@ input, select, textarea {
 
 				.post > header .title h2 {
 					font-weight: 900;
-					font-size: 1.5em;
+					font-size: 1em;
 				}
 
 				.post > header .title > :last-child {
@@ -3292,7 +3292,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#header .links {
-				display: none;
+				/* display: none; */
 			}
 
 		}
@@ -3389,7 +3389,7 @@ input, select, textarea {
 	}
 
 		#sidebar > * {
-			/* border-top: solid 1px rgba(20, 221, 63, 0.747); */
+			border-top: solid 1px rgba(160, 160, 160, 0.3);
 			margin: 3em 0 0 0;
 			padding: 3em 0 0 0;
 		}
